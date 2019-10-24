@@ -1,0 +1,11 @@
+{
+	"kind": "Deployment",
+	"id": "hosting",
+	"cpu": 1,
+	"memory": 128,
+	"image": "wedeploy/hosting:2.0.1",
+	"external": true,
+	"loadBalancer": {
+		"targetPort": 80
+	}
+}
